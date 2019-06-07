@@ -24,7 +24,13 @@ const HeaderWrapper = styled.div`
     flex: 8;
     text-align: center;
     color: #000;
-  }   
+  }
+  
+  @media (min-width: 1280px) {
+    
+    width: 1280px;
+    
+  }
 `;
 
 const Date = styled.span`
