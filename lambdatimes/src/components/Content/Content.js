@@ -24,7 +24,7 @@ export default class Content extends Component {
   }
 
   changeSelected = tab => {
-    console.log(tab)
+    console.log(tab.target.textContent)
     // this function should take in the tab and update the state with the new tab.
     this.setState({
       selected: tab.target.id
@@ -53,7 +53,6 @@ export default class Content extends Component {
         return card.tab === this.state.selected
       }
     })
-
     
   };
 
