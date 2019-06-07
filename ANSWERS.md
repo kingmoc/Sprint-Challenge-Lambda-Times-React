@@ -14,4 +14,6 @@
 
 * 1.	React-Strap.  Quick and generally used.  Not much of a learning curve – gets up beautiful layouts and design quickly. 
 * 2.	Styled-components.  No need for CSS and all styling can be done in one file.  You can create custom styled components and use them throughout your app when needed. 
-* 3.	Vanilla CSS.  Total control.  No need to fight with other styling when trying to customize.  
+* 3.	Vanilla CSS.  Total control.  No need to fight with other styling when trying to customize.
+
+**MVP Complete** 

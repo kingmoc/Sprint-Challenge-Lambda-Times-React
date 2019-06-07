@@ -98,24 +98,22 @@ const ContainerRight = styled.div`
 
 const TopBar = () => {
   return (
-    <TopBarWrapper>
-    
-      <Container>
+    <TopBarWrapper>    
+        <Container>
 
-        <ContainerLeft> 
-          <span>TOPICS</span><span>SEARCH</span>
-        </ContainerLeft>
+            <ContainerLeft> 
+              <span>TOPICS</span><span>SEARCH</span>
+            </ContainerLeft>
 
-        <ContainerCenter>
-          <span>GENERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
-        </ContainerCenter>
-        
-        <ContainerRight>
-          <span>LOG IN</span>
-        </ContainerRight>
+            <ContainerCenter>
+              <span>GENERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
+            </ContainerCenter>
+            
+            <ContainerRight>
+              <span>LOG IN</span>
+            </ContainerRight>
 
-      </Container>
-    
+        </Container>    
     </TopBarWrapper>
   )
 }
